@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         profileCommentLabel.text = "りんごが好きでいつも持ち歩いている"
     }
     @IBAction func tappedButton4(){
-        profileImageView.image = UIImage(named: "fightImage")
+        profileImageView.image = UIImage(named: "flightImage")
         profileLabel.text = "趣味"
         profileCommentLabel.text = "飛行機に乗って空を散歩すること"
     }

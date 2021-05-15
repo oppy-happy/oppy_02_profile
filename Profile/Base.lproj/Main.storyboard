@@ -22,9 +22,8 @@
                                     <constraint firstAttribute="height" constant="320" id="vgW-2j-Yhk"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnd-Wd-Qfx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnd-Wd-Qfx">
                                 <rect key="frame" x="20" y="372" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -84,8 +83,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="iPhoneメンターのフィルだよ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhR-KH-qrt">
-                                <rect key="frame" x="20" y="419" width="382" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhoneメンターのフィルだよ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhR-KH-qrt">
+                                <rect key="frame" x="16" y="418" width="382" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -101,6 +100,8 @@
                             <constraint firstItem="Via-Pr-TrU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Bah-jc-ojs"/>
                             <constraint firstItem="HhR-KH-qrt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="L7z-8h-S6N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gEh-Qj-qC9" secondAttribute="bottom" constant="32" id="SLi-W7-NDA"/>
+                            <constraint firstItem="pnd-Wd-Qfx" firstAttribute="top" secondItem="Via-Pr-TrU" secondAttribute="bottom" constant="8" id="Vl3-Yw-yeX"/>
+                            <constraint firstItem="HhR-KH-qrt" firstAttribute="top" secondItem="pnd-Wd-Qfx" secondAttribute="bottom" constant="16" id="aQZ-pm-t2l"/>
                             <constraint firstItem="Via-Pr-TrU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xQT-TU-YXF"/>
                         </constraints>
                     </view>
