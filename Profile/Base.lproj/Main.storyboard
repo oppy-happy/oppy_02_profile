@@ -41,6 +41,9 @@
                                                 <state key="normal" title="名前">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappButton1" destination="BYZ-38-t0r" eventType="touchUpInside" id="8UA-9h-fKo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaU-ug-FTN">
                                                 <rect key="frame" x="199" y="0.0" width="183" height="30"/>
@@ -48,6 +51,9 @@
                                                 <state key="normal" title="スポーツ">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappedButton2" destination="BYZ-38-t0r" eventType="touchUpInside" id="d7B-Rs-wbh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -60,6 +66,9 @@
                                                 <state key="normal" title="好きな食べ物">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappedButton3" destination="BYZ-38-t0r" eventType="touchUpInside" id="Odw-cK-EVn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcw-mb-05m">
                                                 <rect key="frame" x="199" y="0.0" width="183" height="30"/>
@@ -67,6 +76,9 @@
                                                 <state key="normal" title="趣味">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappedButton4" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sg7-ai-KqX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
